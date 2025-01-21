@@ -1,0 +1,64 @@
+h1, h2, .meny {
+        text-align: center;
+    }
+
+body, html {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+/* denne kan funker på ale bilder */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin:auto;
+}
+
+.meny {
+    padding: 20px;
+}
+
+.vare p {
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.kaffetype {
+    margin-left: 30%;
+    text-align: left;
+    width: 37%;
+}
+
+.pris {
+    margin-right: 30%;
+    text-align: right;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+hr {
+    height: 0px;
+    background-color: rgb(255, 166, 0);
+    border-color: orange;
+}
+
+.visjon, .medarbeider {
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.538);
+    color: rgb(255, 255, 255);  
+    padding: 15px;
+}
